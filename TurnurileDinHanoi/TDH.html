@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="TDH.css">	
+        <title>Turnurile din Hanoi</title>
+    </head>
+    <body>
+        <div id="TDH">
+            <canvas id="canvas" class="game" width="900px" height="375px" >
+                    
+            </canvas>
+
+            <div class="settings">
+                <div id="div">
+                    <label for="noBricks">Alege numarul de caramizi</label>
+                    <select name="noBricks" id="id-select">
+                        <option value="3" selected>3</option>
+                        <option value="4" >4</option>
+                        <option value="5" >5</option>
+                        <option value="6" >6</option>
+                    </select>
+
+                    <br>
+                    
+                    <label for="NoMin">Numarul minim de mutari</label>
+                    <label id="noMinimMiscari" name="NoMin">7</label>
+                    
+                    <br>
+
+                    <label for="NoPlayer">Numarul tau de mutari</label>
+                    <label id="contor" name="NoPlayer">0</label>
+
+                    <br>
+                    <button id="instructiuni">Instructions</button>
+                    <button id="restart">Restart</button>
+                    <button id="rezolva">Solve</button>
+                    
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="TDH.js" charset="UTF-8" ></script>
+    </body>
+
+
+</html>
